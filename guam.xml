@@ -5,15 +5,15 @@
            path="device/motorola/guam"
            revision="lineage-21" />
 
-  <!-- Common configs for Snapdragon 460 / SM6115 family -->
-  <project name="LineageOS/android_device_motorola_sm6115-common"
-           path="device/motorola/sm6115-common"
+  <!-- Common configs for MediaTek SM6225 family -->
+  <project name="LineageOS/android_device_motorola_sm6225-common"
+           path="device/motorola/sm6225-common"
            revision="lineage-21" />
 
-  <!-- Kernel source from Motorola's Android 10 release (guam) -->
-  <project name="MotorolaMobilityLLC/kernel-msm"
-           path="kernel/motorola/guam"
-           revision="android-10-release-qpzs" />
+  <!-- Kernel source for MediaTek SM6225 -->
+  <project name="LineageOS/android_kernel_motorola_sm6225"
+           path="kernel/motorola/sm6225"
+           revision="lineage-21" />
 
   <!-- Vendor proprietary blobs for guam -->
   <project name="TheMuppets/proprietary_vendor_motorola_guam"
